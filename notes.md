@@ -14,21 +14,21 @@ Project 2
 TESTING
 
 OCT
-      12
-18    19
-25    26
+12
+18 19
+25 26
 NOV
- 1     2
- 8     9
+1 2
+8 9
 Project 1 - start
-15    16
-22    23
-29    30
+15 16
+22 23
+29 30
 DEC
- 6     7
+6 7
 Project 2 - start
-13    14
-20    21
+13 14
+20 21
 10
 Project 2 - due
 
@@ -92,7 +92,7 @@ Proper use of language elements to process and display dynamic data - EHPA: 2.1 
 Proper application of object-oriented programming principles - EHP2: all - 20 %
 Proper application of design patterns - EHPA: 2.1 to 2.6 - 15 %
 Correct functioning of the realized product - EHP2: 1.1, 1.2, 3.1 to 3.3 - 25 %
-Proper application of tests  - EHPA: 2.1 to 2.6 - 10 %
+Proper application of tests - EHPA: 2.1 to 2.6 - 10 %
 Optimal quality of the programming - EHP2: 1.1, 1.2, 3.1 to 3.3 - 10 %
 
 Monolith vs microservice arxhitecture? Not how to but what it is. And pitfalls of both. Most code base in Quebec are monoliths tho.
@@ -152,5 +152,14 @@ how good are they in php?
 [Node.js Microservices Deployed on EC2 Container Service](https://github.com/awslabs/amazon-ecs-nodejs-microservices) -->
 
 [UI / UX Course](https://nortonb.web582.com/ui-ux/)
+
 <!-- [ebooks](https://github.com/robby06) -->
 <!-- [php_mysql projects](https://github.com/robby06/php_mysql/blob/master/Project02/User%20Authentication/change_passwd.php) -->
+
+https://www.php.net/manual/en/function.ini-set.php
+
+```
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+```
